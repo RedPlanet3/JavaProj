@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
@@ -8,9 +9,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ProjectId" id="2N8T6UQ2eQelpZJE3YT2db5mhbv" />
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ccfda6f6-c3f5-495d-af5d-bfc5dc4839f7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2N8T6UQ2eQelpZJE3YT2db5mhbv" />
+>>>>>>> 46aaba03c9ce4eaf46f95820b00c760cbcdc982c
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false"
   }
+<<<<<<< HEAD
 }]]></component>
+=======
+}]]></component>
+>>>>>>> 46aaba03c9ce4eaf46f95820b00c760cbcdc982c
 </project>
