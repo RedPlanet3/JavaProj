@@ -1,16 +1,20 @@
 package ru.pryakhina.springcourse.controllers;
 
-import jakarta.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import ru.pryakhina.springcourse.dao.PersonDAO;
 import ru.pryakhina.springcourse.models.Person;
 
+import javax.validation.Valid;
+
 @Controller
 @RequestMapping("/people")
+
 public class PeopleController {
     
     private final PersonDAO personDAO;
@@ -42,7 +46,7 @@ public class PeopleController {
     }
 
     @PostMapping()
-    public String create(@ModelAttribute("person") @Valid Person person,
+    public String create(@Valid @ModelAttribute("person") Person person,
                          BindingResult bindingResult) {
 
         if (bindingResult.hasErrors())
