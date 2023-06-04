@@ -10,26 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="915f5b2a-3ee4-44bf-b122-e6ba09ff6279" name="Changes" comment="validate">
-      <change afterPath="$PROJECT_DIR$/../../../../RuCode/A. Арифметические запросы/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../RuCode/A. Младший бит/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../RuCode/B. Больше разнообразия/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../RuCode/C. Подбор лучшего защитника/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../RuCode/D. Германн и рулетка/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../RuCode/E. Старый ноутбук/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../1/.idea/1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../1/spring-app-1/spring-app-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../interviews/contest/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../others/TimeMeasure/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../others/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../others/размен монет/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../others/рюкзак1/untitled/untitled.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../proba/proba.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../stepic/¦Ш¦-TВ¦¦¦-TБ¦¬¦- ¦¬¦- ¦¬TА¦-¦¦TА¦-¦-¦-¦¬TА¦-¦-¦-¦-¦¬TО ¦-¦- TП¦¬TЛ¦¦¦¦ Java/patient-init/patient-init.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/SpringConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -191,7 +175,7 @@
       <workItem from="1685603462654" duration="2273000" />
       <workItem from="1685618510516" duration="3545000" />
       <workItem from="1685690208240" duration="1940000" />
-      <workItem from="1685889607295" duration="1488000" />
+      <workItem from="1685889607295" duration="3686000" />
     </task>
     <task id="LOCAL-00001" summary="validate">
       <created>1685615211342</created>
@@ -200,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685615211342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="validate">
+      <created>1685891218764</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685891218764</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
