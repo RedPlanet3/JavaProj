@@ -9,12 +9,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="915f5b2a-3ee4-44bf-b122-e6ba09ff6279" name="Changes" comment="validate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonMapper.java" afterDir="false" />
+    <list default="true" id="915f5b2a-3ee4-44bf-b122-e6ba09ff6279" name="Changes" comment="jdbcTemplate">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/BatchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/util/PersonValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties.origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,7 +67,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProj/Spring/SpringMVC/PersonList/PersonList&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaProj/Spring/SpringMVC/PersonList/PersonList/src/main/webapp/WEB-INF/views/batch&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;f5b7cc16c58a8c4fae37af1bd655c41e&quot;
   },
@@ -70,6 +79,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\webapp\WEB-INF\views\batch" />
+      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\resources" />
       <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\java\ru\pryakhina\springcourse\config" />
     </key>
   </component>
@@ -175,7 +186,9 @@
       <workItem from="1685603462654" duration="2273000" />
       <workItem from="1685618510516" duration="3545000" />
       <workItem from="1685690208240" duration="1940000" />
-      <workItem from="1685889607295" duration="3686000" />
+      <workItem from="1685889607295" duration="10656000" />
+      <workItem from="1685952712383" duration="632000" />
+      <workItem from="1685960404031" duration="8977000" />
     </task>
     <task id="LOCAL-00001" summary="validate">
       <created>1685615211342</created>
@@ -191,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685891218764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jdbcTemplate">
+      <created>1685893572241</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685893572241</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +231,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="validate" />
-    <option name="LAST_COMMIT_MESSAGE" value="validate" />
+    <MESSAGE value="jdbcTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbcTemplate" />
   </component>
 </project>

@@ -1,10 +1,7 @@
 package ru.pryakhina.springcourse.models;
 
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 public class Person {
     private int id;
@@ -17,15 +14,29 @@ public class Person {
     @Email(message = "Email should be valid ")
     private String email;
 
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    @Pattern(regexp = "[A-Z]\\w+, [A-Z]\\w+, \\d{6}", message = "Your adress should be  in this format: Country, City, Postal Code(6 digits)")
+    private String adress;
+
     public Person() {
     }
 
-    public Person(int id, String name, int age, String email) {
+    public Person(int id, String name, int age, String email, String adress) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.email = email;
+        this.adress = adress;
     }
+
 
     public void setAge(int age) {
         this.age = age;
