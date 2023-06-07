@@ -7,6 +7,7 @@ import org.springframework.validation.Validator;
 import ru.pryakhina.springcourse.dao.PersonDAO;
 import ru.pryakhina.springcourse.models.Person;
 
+
 @Component
 public class PersonValidator implements Validator {
 
@@ -27,8 +28,8 @@ public class PersonValidator implements Validator {
     public void validate(Object o, Errors errors) {
         Person person = (Person) o;
 
-        if (personDAO.show(((Person) o).getEmail()).isPresent()){
-            errors.rejectValue("email", "", "This email is allready taken");
+        if (personDAO.show(person.getName()).isPresent()){
+            errors.rejectValue("name", "", "This name is allready taken");
         }
     }
 }

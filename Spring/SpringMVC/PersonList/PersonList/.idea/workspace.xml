@@ -9,21 +9,170 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="915f5b2a-3ee4-44bf-b122-e6ba09ff6279" name="Changes" comment="jdbcTemplate">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/BatchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/util/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/adminPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
+    <list default="true" id="915f5b2a-3ee4-44bf-b122-e6ba09ff6279" name="Changes" comment="properties_origin_merge">
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources/987a0444-6ced-4c98-a19b-92be9c5b06f3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources/987a0444-6ced-4c98-a19b-92be9c5b06f3/storage_v2/_src_/database/project1.OBh5xA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources/987a0444-6ced-4c98-a19b-92be9c5b06f3/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources/987a0444-6ced-4c98-a19b-92be9c5b06f3/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/dataSources/987a0444-6ced-4c98-a19b-92be9c5b06f3/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/DAO/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/DAO/PersonDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/DAO/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/controllers/PeopleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/controllers/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/java/ru/pryakhina/springMVC/utils/PersonValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/resources/database.properties.origin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/books/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/books/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/people/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/database.properties.origin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/DAO/BookDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/DAO/PersonDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/DAO/PersonMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/config/MySpringMVCDispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/config/SpringConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/controllers/PersonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/models/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/models/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/classes/ru/pryakhina/springMVC/utils/PersonValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/attoparser-2.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/checker-qual-3.31.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/postgresql-42.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/slf4j-api-2.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-aop-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-beans-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-context-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-core-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-expression-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-jcl-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-jdbc-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-tx-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-web-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/spring-webmvc-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/thymeleaf-3.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/thymeleaf-spring5-3.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/books/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/books/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/books/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/books/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Library/untitled/target/PersonList/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/BatchController_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/PeopleController_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/BookDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Person_old_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/util/PersonValidator_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people_old/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people_old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people_old/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people_old/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/database.properties.origin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/DAO/BookDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/DAO/PersonDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/DAO/PersonMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/config/MySpringMVCDispatcherServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/config/SpringConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/controllers/BookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/controllers/PersonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/models/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/models/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/classes/ru/pryakhina/springMVC/utils/PersonValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/attoparser-2.0.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/checker-qual-3.31.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/postgresql-42.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/slf4j-api-2.0.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-aop-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-beans-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-context-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-core-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-expression-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-jcl-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-jdbc-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-tx-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-web-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/spring-webmvc-5.2.24.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/thymeleaf-3.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/thymeleaf-spring5-3.1.1.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/unbescape-1.1.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/books/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/books/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/books/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/books/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/people/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/people/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/views/people/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../apache-tomcat-10.1.9-windows-x64/apache-tomcat-10.1.9/webapps/ROOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/MySpringMVCDispatcherServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/config/MySpringMVCDispatcherServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/BatchController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties.origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/util/PersonValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +200,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2QYkL5ynbvqz96fXNSIO8XpJQLx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,34 +211,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/JavaProj/Spring/SpringMVC/PersonList/PersonList/src/main/webapp/WEB-INF/views/batch&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;f5b7cc16c58a8c4fae37af1bd655c41e&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/JavaProj/Spring/SpringMVC/PersonList/PersonList/src/main/webapp/WEB-INF/views",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "f5b7cc16c58a8c4fae37af1bd655c41e"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\webapp\WEB-INF\views\batch" />
+      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\webapp\WEB-INF\views" />
       <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\resources" />
-      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\java\ru\pryakhina\springcourse\config" />
+      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\java\ru\pryakhina\springcourse\models" />
+      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\java\ru\pryakhina\springcourse\dao" />
+      <recent name="D:\JavaProj\Spring\SpringMVC\PersonList\PersonList\src\main\java\ru\pryakhina\springcourse\controllers" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.pryakhina.springcourse.util" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="temurin-11" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/people" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="PersonList:war">
@@ -96,7 +252,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ac34fea5-3cc3-491f-9c88-78574d771079" />
+        <option name="BASE_DIRECTORY_NAME" value="5c9fd25e-40c5-4f4c-9f50-76040518ba70" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -104,7 +260,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64506" />
+        <option name="DEBUG_PORT" value="65486" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -188,7 +344,9 @@
       <workItem from="1685690208240" duration="1940000" />
       <workItem from="1685889607295" duration="10656000" />
       <workItem from="1685952712383" duration="632000" />
-      <workItem from="1685960404031" duration="8977000" />
+      <workItem from="1685960404031" duration="10158000" />
+      <workItem from="1686029664143" duration="16302000" />
+      <workItem from="1686123349195" duration="11399000" />
     </task>
     <task id="LOCAL-00001" summary="validate">
       <created>1685615211342</created>
@@ -211,7 +369,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685893572241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="properties">
+      <created>1685988464165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685988464165</updated>
+    </task>
+    <task id="LOCAL-00005" summary="properties">
+      <created>1685988512381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685988512381</updated>
+    </task>
+    <task id="LOCAL-00006" summary="properties_origin">
+      <created>1685988802603</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685988802603</updated>
+    </task>
+    <task id="LOCAL-00007" summary="properties_origin_merge">
+      <created>1685988950789</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685988950789</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +418,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="validate" />
     <MESSAGE value="jdbcTemplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbcTemplate" />
+    <MESSAGE value="properties" />
+    <MESSAGE value="properties_origin" />
+    <MESSAGE value="properties_origin_merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="properties_origin_merge" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/dao/PersonDAO.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/models/Person.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ru/pryakhina/springcourse/controllers/PeopleController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

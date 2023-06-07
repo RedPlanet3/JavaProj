@@ -1,6 +1,5 @@
 package ru.pryakhina.springcourse.controllers;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,13 +9,13 @@ import ru.pryakhina.springcourse.dao.PersonDAO;
 import ru.pryakhina.springcourse.models.Person;
 import ru.pryakhina.springcourse.util.PersonValidator;
 
+
 import javax.validation.Valid;
 
 @Controller
 @RequestMapping("/people")
-
 public class PeopleController {
-    
+
     private final PersonDAO personDAO;
     private final PersonValidator personValidator;
 
@@ -26,25 +25,10 @@ public class PeopleController {
         this.personValidator = personValidator;
     }
 
-    @GetMapping
-    public String index(Model model)
-    {
+    @GetMapping()
+    public String index(Model model){
         model.addAttribute("people", personDAO.index());
         return "/people/index";
-    }
-
-    @GetMapping("/{id}")
-    public String show(@PathVariable("id") int id,
-                       Model model)
-    {
-        model.addAttribute("id", personDAO.show(id));
-        return "/people/show";
-    }
-
-    @GetMapping("/new")
-    public String newPerson(@ModelAttribute("person") Person person)
-    {
-        return "/people/new";
     }
 
     @PostMapping()
@@ -56,6 +40,14 @@ public class PeopleController {
             return "/people/new";
         personDAO.save(person);
         return "redirect:/people";
+    }
+
+
+    @GetMapping("/{id}")
+    public String personId(@PathVariable("id") int id,
+                           Model model){
+        model.addAttribute("people", personDAO.show(id));
+        return "/people/show";
     }
 
     @GetMapping("/{id}/edit")
@@ -75,6 +67,13 @@ public class PeopleController {
         personDAO.update(id, person);
         return "redirect:/people";
     }
+
+    @GetMapping("/new")
+    public String newPerson(@ModelAttribute("person") Person person)
+    {
+        return "/people/new";
+    }
+
 
     @DeleteMapping("/{id}")
     public String delete(@PathVariable("id") int id){
