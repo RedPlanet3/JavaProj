@@ -4,9 +4,9 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
 
-public class Book {
+public class Book_new {
 
-    private int id;
+    private int book_id;
     @NotEmpty(message = "Enter name for book")
     @Size(min = 1, message = "Name shouldt be mim 1 symbl")
     private String name;
@@ -18,34 +18,25 @@ public class Book {
     @Min(1)
     private int year;
 
-    private Person person;
 
-    public Book(int id, String name, String autor, int year) {
-        this.id = id;
+    public Book_new(String name, String autor, int year) {
         this.name = name;
         this.autor = autor;
         this.year = year;
     }
 
-    public Book() {
+    public Book_new() {
     }
 
     public int getId() {
-        return id;
+        return book_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int book_id) {
+        this.book_id = book_id;
     }
 
 
-    public Person getPerson() {
-        return person;
-    }
-
-    public void setPerson(Person person) {
-        this.person = person;
-    }
     public String getName() {
         return name;
     }

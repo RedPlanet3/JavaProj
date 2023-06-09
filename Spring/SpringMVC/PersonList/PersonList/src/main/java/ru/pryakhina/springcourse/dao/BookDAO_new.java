@@ -4,49 +4,49 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
-import ru.pryakhina.springcourse.models.Book;
+import ru.pryakhina.springcourse.models.Book_new;
 import ru.pryakhina.springcourse.models.Person;
 
 
 import java.util.List;
 
 @Component
-public class BookDAO {
+public class BookDAO_new {
 
     private final JdbcTemplate jdbcTemplate;
 
     @Autowired
-    public BookDAO(JdbcTemplate jdbcTemplate) {
+    public BookDAO_new(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
 
 
-    public List<Book> index() {
+    public List<Book_new> index() {
         return jdbcTemplate.query("SELECT * From Book;",
-                new BeanPropertyRowMapper<>(Book.class));
+                new BeanPropertyRowMapper<>(Book_new.class));
     }
 
-    public void save(Book newBook) {
+    public void save(Book_new newBookNew) {
         jdbcTemplate.update("INSERT into Bok(name,autor, year) values (?, ?, ?);",
-                newBook.getName(), newBook.getAutor(),newBook.getYear());
+                newBookNew.getName(), newBookNew.getAutor(), newBookNew.getYear());
     }
 
-    public void update(int id, Book upBook) {
+    public void update(int id, Book_new upBookNew) {
         jdbcTemplate.update("UPDATE Book set person_id=?, name=?, birthday=? where id=?;",
-                upBook.getPerson().getId(), upBook.getName(), upBook.getAutor(),upBook.getYear(), id);
+                upBookNew.getName(), upBookNew.getAutor(), upBookNew.getYear(), id);
     }
 
-    public Book show(int id) {
+    public Book_new show(int id) {
        return jdbcTemplate.query("SELECT * FROM BOOK WHERE id=?;",
-                        new Object[]{id}, new BeanPropertyRowMapper<>(Book.class))
+                        new Object[]{id}, new BeanPropertyRowMapper<>(Book_new.class))
                 .stream().findAny().orElse(null);
     }
 
-    public void appoint(Person person, int id, Book upBook) {
+    public void appoint(Person person, int id, Book_new upBookNew) {
         jdbcTemplate.update("UPDATE Book set person_id=?where id=?;",
                 person.getId(), id);
     }
-    public void backToTheLibrary(int id, Book upBook) {
+    public void backToTheLibrary(int id, Book_new upBookNew) {
         jdbcTemplate.update("UPDATE Book set person_id= null where id=?;",
                 id);
     }
